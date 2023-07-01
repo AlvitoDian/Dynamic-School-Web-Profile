@@ -1,0 +1,419 @@
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+/* Header Home */
+.header-home {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: transparent;
+    transition: 0.6s;
+    font-weight: 500px;
+}
+
+.header-home.sticky {
+    /* padding: 5px 50px; */
+    background: rgb(28, 35, 49);
+    font-weight: 500px;
+}
+
+.header-home ul li {
+    position: relative;
+    list-style: none;
+}
+
+/* Image Galery */
+/* .container-galery {
+    position: relative;
+    min-height: 100vh;
+
+}
+
+.container-galery .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.container-galery .image-container .image {
+    height: 250px;
+    width: 350px;
+    border: 10px solid #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.container-galery .image-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s ease;
+}
+
+.container-galery .image-container .image:hover img {
+    transform: scale(1.1);
+}
+
+.container-galery .popup-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+    display: none;
+}
+
+.container-galery .popup-image span {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+    margin-top: 90px;
+}
+
+.container-galery .popup-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #fff;
+    border-radius: 5px;
+    width: 600px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+@media (max-width: 768px) {
+    .container-galery .popup-image img {
+        width: 95%;
+    }
+} */
+
+img {
+    max-width: 100%;
+}
+.gallery {
+    padding: 5px 0;
+}
+.gallery img {
+    background-color: #ffffff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    overflow: hidden;
+}
+#gallery-modal .modal-img {
+    width: 100%;
+}
+
+.image-container .image {
+    height: 400px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+}
+
+.image-container .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s ease;
+}
+
+.image-container .image:hover img {
+    transform: scale(1.1);
+}
+
+.lokasi {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a {
+    transition: all 0.2s;
+}
+.social-links a img {
+    height: 30px;
+}
+.social-links a:hover {
+    transform: translateY(-3px);
+}
+
+.text-galery {
+    font-size: 15px;
+}
+
+/*Fasilitas Unggulan */
+
+#video-feature {
+    position: relative;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.feature-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    background-color: rgba(28, 35, 49, 0.9);
+}
+
+.video {
+    padding-left: 80px;
+}
+.video i {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    font-size: 24px;
+    background-color: #ffc600;
+    color: #07294d;
+    border-radius: 50%;
+}
+
+.feature {
+    position: relative;
+    z-index: 5;
+}
+
+.feature .feature-title h3 {
+    font-size: 36px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+
+.feature ul li .singel-feature {
+    padding-top: 55px;
+    overflow: hidden;
+}
+.feature ul li .singel-feature .icon {
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+    padding-right: 30px;
+}
+.feature ul li .singel-feature .cont {
+    width: 78%;
+    float: left;
+    overflow: hidden;
+}
+.feature ul li .singel-feature .cont h4 {
+    font-size: 24px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.feature ul li .singel-feature .cont p {
+    color: #fff;
+}
+
+.bg_cover {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #video-feature {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .feature-bg {
+        top: auto;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+    }
+}
+
+/* small mobile :320px. */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #video-feature {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .feature-bg {
+        top: auto;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+    }
+}
+
+/* Large Mobile :480px. */
+@media only screen and (max-width: 575.98px) {
+    #video-feature {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+    .feature-bg {
+        top: auto;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        bottom: 0;
+    }
+}
+
+/* Border Bottom */
+
+.border-bottom-secondary {
+    border-bottom: 0.25rem solid #1c2331 !important;
+}
+
+.nav-border-bottom-secondary:hover {
+    border-bottom: 0.01rem solid #1c2331 !important;
+}
+
+/* Nav Animation Dropdown */
+/* ============ only desktop view ============ */
+@media all and (min-width: 992px) {
+    .navbar .nav-item .dropdown-menu {
+        display: block;
+        opacity: 0;
+        visibility: hidden;
+        transition: 0.3s;
+        margin-top: 0;
+    }
+    .navbar .nav-item:hover .nav-link {
+        color: #fff;
+    }
+    .navbar .dropdown-menu.fade-down {
+        top: 80%;
+        transform: rotateX(-75deg);
+        transform-origin: 0% 0%;
+    }
+    .navbar .dropdown-menu.fade-up {
+        top: 180%;
+    }
+    .navbar .nav-item:hover .dropdown-menu {
+        transition: 0.3s;
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+        transform: rotateX(0deg);
+    }
+}
+/* ============ desktop view .end// ============ */
+
+/* Online Cours */
+.online-cours h2 {
+    font-size: 45px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.online-cours h5 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+.cours-search {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 4px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.cours-search .form-control {
+    border: 0;
+    height: 50px;
+    border-radius: 4px !important;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.cours-search .input-group-append {
+    margin-left: 10px;
+}
+.cours-search .input-group-append .btn {
+    border-radius: 4px;
+}
+.cours-search-bx {
+    text-align: center;
+    border-radius: 4px;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.15);
+    padding: 20px 20px 15px 20px;
+}
+.cours-search-bx h3 {
+    color: rgb(0, 0, 0);
+    font-weight: 300;
+    font-size: 45px;
+}
+.cours-search-bx i {
+    margin-right: 10px;
+    font-size: 40px;
+}
+
+/* Counter */
+.counter {
+    position: relative;
+}
+.counter-style-1 .counter {
+    font-size: 50px;
+    font-weight: 700;
+}
+.counter-style-1 .counter-text {
+    font-size: 16px;
+    font-weight: 500;
+}
+.counter-style-1 .icon {
+    font-size: 45px;
+    margin-right: 10px;
+}
+
+.counter-style-1 span {
+    font-size: 45px;
+    font-family: rubik;
+    font-weight: 700;
+}
+.counter-style-1 .counter-text {
+    color: #606060;
+    font-size: 16px;
+    text-transform: uppercase;
+}
